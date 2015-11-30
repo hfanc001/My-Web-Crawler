@@ -1,0 +1,71 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://i.imgur.com/qgB1gC5.png');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.BM25 {
+  background-color: #f7f7f7;
+  background-image:url('http://i.imgur.com/89dj1JB.png');
+  height: 400px;
+}
+
+.BM25 h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.BM25 a {
+  color: #00b0ff;
+}
+
+.PageRank
+{
+    background-image:url('http://i.imgur.com/m0qyPve.png');
+    border-bottom: 1px solid #dbdbdb;
+    height: 400px;
+}
+
+.PageRank h3
+{
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.PageRank p
+{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
