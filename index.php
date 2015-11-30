@@ -30,7 +30,7 @@
         <p>Input your keywords in the search box below.</p>
 	<p>You can choose between BM25, TFIDF, Frequency</p>
         <div class = "search_box">
-            <form id="searchbox" action="action.php">
+            <form id="searchbox" action="index.php">
                 <input name="search" type="text" placeholder="Type here">
 		<input type="radio" name="search_type" value="BM25" checked="checked">BM25
 		<input type="radio" name="search_type" value="TFIDF">TFIDF
@@ -41,8 +41,11 @@
       </div>
     </div> 
 
-	<?php include("action.php");?>
-    <!---div class="BM25">
+	<?php 
+	
+	?>		
+    
+	<!---div class="BM25">
         <div class="container">
             <h2>Search Results</h2>
             <p>Below are your results ranked by BM25 through Whoosh.</p>
