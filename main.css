@@ -9,19 +9,51 @@
 .nav li {
   display: inline;
 }
-
+body {
+	background-image:url('http://i.imgur.com/qgB1gC5.png');
+	min-height: 100%;
+}
+body h3 {
+	font-size: 70px;
+}
 .jumbotron {
   background-image:url('http://i.imgur.com/qgB1gC5.png');
+  
   height: 400px;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
+  property:value
+  
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
 }
+.jumbotron .container a{
+  font-size:48px;
+  color:#fff;
+}
 
+#searchbox{
+	color: #fff;
+}
+#searchbox .name{
+	color: #fff;
+	padding-left:178px;
+}
+form input[type="submit"] {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 4px 10px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+form input[type="text"] {
+  color: #000;
+}
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;  
@@ -37,35 +69,53 @@
 .BM25 {
   background-color: #f7f7f7;
   background-image:url('http://i.imgur.com/89dj1JB.png');
-  height: 400px;
+  height: 100%;
+  padding-bottom:100px;
 }
-
+.BM25 h2 {
+  font-family: 'Shift', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
 .BM25 h3 {
   font-family: 'Shift', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.BM25 h4 {
+  font-family: 'Shift', sans-serif;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .BM25 a {
-  color: #00b0ff;
+  color: #002bb3;
 }
 
-.PageRank
+.TFIDF
 {
-    background-image:url('http://i.imgur.com/m0qyPve.png');
+    background-image:url('http://i.imgur.com/hQZQFO6.png');
     border-bottom: 1px solid #dbdbdb;
-    height: 400px;
+	height: 100%;
+	padding-bottom:100px;
+}
+.TFIDF h2 {
+  font-family: 'Shift', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.TFIDF h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.TFIDF h4 {
+  font-family: 'Shift', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.PageRank h3
-{
-    font-family: 'Shift', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+.TFIDF a {
+  color: #002bb3;
 }
 
-.PageRank p
-{
-    font-size: 15px;
-    margin-bottom: 13px;
-}
